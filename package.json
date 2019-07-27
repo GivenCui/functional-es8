@@ -4,12 +4,14 @@
   "description": "Functional lib and examples in ES6",
   "main": "index.js",
   "scripts": {
-    "playground": "babel-node functional-playground/play.js --presets es2017-node7"
+    "playground": "babel-node functional-playground/play.js"
   },
   "author": "Anto Aravinth <anto.aravinth.cse@gmail.com>",
   "license": "ISC",
-  "dependencies": {
-    "babel-preset-es2017-node7": "^0.5.2",
-    "babel-cli": "^6.23.0"
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5"
   }
 }
